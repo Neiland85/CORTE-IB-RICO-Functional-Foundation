@@ -46,6 +46,32 @@ No hypothesis is promoted to fact without supporting evidence.
 
 ---
 
+## Documentary Evidence Register
+
+| ID | Source | Verified content relevant to the project | Classification |
+|---|---|---|---|
+| E-018 | SRC-001 | The initial documentation was explicitly framed as a technical/methodological working base, not a closed proposal or unilateral execution decision. | DOCUMENTED |
+| E-019 | SRC-001 | The skills matrix and participation scenarios were explicitly not treated as automatically verified capabilities or closed contractual arrangements. | DOCUMENTED |
+| E-020 | SRC-001 | The working chain is capability → available evidence → validation → possible responsibility → participation → continuity. | DOCUMENTED |
+| E-021 | SRC-002 | Meta-related technical work must begin with official documentation and current product/API/policy state before designing a proprietary solution. | METHODOLOGY |
+| E-022 | SRC-002 | Undocumented internal Meta mechanisms must remain `UNKNOWN / NOT PUBLICLY DOCUMENTED`; laboratory implementations must not be presented as Meta internal mechanisms. | METHODOLOGY |
+| E-023 | SRC-002 | The research output is separated into Meta Requirement, Laboratory Implementation, Observed Result, Technical Inference and Hypothesis. | METHODOLOGY |
+| E-024 | SRC-002 | Conclusions must be re-evaluated when Meta documentation, products, APIs, policies, evidence or experimental results change. | METHODOLOGY |
+| E-025 | SRC-003 | The technical perimeter spans acquisition through transaction verification and Meta signalling, including campaigns, eligibility, audience/age constraints, creative preflight, Pixel, Conversions API, event quality/deduplication, ecommerce, funnel, payment, order confirmation, purchase verification, attribution and reconciliation. | DOCUMENTED SCOPE |
+| E-026 | SRC-003 | A Meta signal is not by itself proof of economic truth; technical telemetry must be distinguished from business reality. | METHODOLOGY |
+| E-027 | SRC-003 | The execution gate is proposal → client review/agreement → access + authority → controlled execution → evidence → validation. | DOCUMENTED METHODOLOGY |
+| E-028 | SRC-004 | Public Meta documentation does not by itself establish the behaviour of a specific Corte Ibérico account. | DOCUMENTED METHODOLOGY |
+| E-029 | SRC-004 | Public information about Andromeda/retrieval/ranking/sequential modelling does not justify undocumented causal claims about a specific ad, hidden thresholds or audience rules. | DOCUMENTED METHODOLOGY |
+| E-030 | SRC-004 | Account-specific scaling requires business, account and funnel evidence; public infrastructure research is not a substitute for that evidence. | DOCUMENTED METHODOLOGY |
+| E-031 | SRC-005 | The commercial proposal is explicitly pre-contractual and proposes immediate PRO operation plus progressive capability development. | PROPOSAL |
+| E-032 | SRC-005 | The proposed first-stage scope includes governance, roles/permissions, Meta channels, measurement, Pixel/CAPI where applicable, audiences, catalogue/Commerce where applicable, naming, campaign structure, sources of truth and documentation. | PROPOSAL |
+| E-033 | SRC-005 | The proposal explicitly avoids promising a complete platform, fixed number of channels/integrations/campaigns/SKUs/events or specific internal client systems before discovery and evidence. | PROPOSAL CONTROL |
+| E-034 | SRC-005 | The proposal states that pricing should be finalized after the first audit and strategic decision rather than being presented as a precise pre-audit figure. | PROPOSAL |
+| E-035 | SRC-005 | The proposal contains a claim about severe Meta restrictions affecting young audiences in Europe from September 2026 and refers to a historical judgment. That claim requires independent official/legal verification before being presented as fact. | HYPOTHESIS / VALIDATION REQUIRED |
+| E-036 | SRC-005 | The example concerning unusually low engagement, such as eight likes, is an illustrative diagnostic statement, not an established Meta benchmark. | ILLUSTRATIVE / NOT VERIFIED |
+| E-037 | SRC-005 | The proposal requires controlled administrative roles rather than sharing passwords and places project code under client-controlled repository administration. | PROPOSAL / GOVERNANCE PRINCIPLE |
+| E-038 | Outlook / GitHub notification | A fine-grained GitHub personal access token was created for temporary Corte Ibérico repository access on 2026-10-05. Current evidence does not establish that it was revoked. | SECURITY EVENT / OPEN |
+
 ## Diagnosis Matrix
 
 | ID | Evidence basis | Current diagnosis | Confidence | Missing evidence | Next action |
