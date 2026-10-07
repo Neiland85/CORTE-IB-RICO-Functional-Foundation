@@ -13,13 +13,13 @@ during analysis can be independently checked.
 
 ## Primary Documentary Package
 
-| ID | Source | Date received | Pages | SHA-256 | Role |
-|---|---|---:|---:|---|---|
-| SRC-001 | `a_CORTE IBERICO · Contexto y metodología.pdf` | 2026-10-06 | 11 | `49a42d968e351fbd69479905a1875f53cb2090f586c445fd8d95664960fe0c43` | Context, methodology, provenance, skills/participation framing |
-| SRC-002 | `b_CORTE IBERICO META-002 — Cómo se convierte la frontera en un proceso operativo.pdf` | 2026-10-06 | 4 | `b65eb7a04069b7bac9288d8442a22ee2608f8679c87622000cf32e68d0302b84` | Meta evidence boundary and technical research process |
-| SRC-003 | `c_CORTE IBERICO · Perímetro técnico y cadena comercial.pdf` | 2026-10-06 | 8 | `f9f13e748026bac2c2b893cb7e625cb654fc168d6ab14588c80bd81f595b0419` | Technical perimeter, funnel, measurement and execution governance |
-| SRC-004 | `d_CORTE IBERICO · Contexto de las siguientes capturas.pdf` | 2026-10-06 | 5 | `a024ff5b0fde8fc6693211f5fb6fa79281e58c806b6608e71f059751a54d3c1a` | Context for Meta documentation / Andromeda / scaling screenshots |
-| SRC-005 | `e_CORTE IBÉRICO · PROPUESTA COMERCIAL Y MODELOS DE CONTRATACIÓN.pdf` | 2026-10-06 | 14 | `94093b214fdc3567023acbb0b542b02c0a697c35683a8c8f103cada12eff0c9d` | Pre-contractual proposal, phase model and commercial options |
+| ID | Source | Date received | Pages | SHA-256 | Class | Status | Role |
+|---|---|---:|---:|---|---|---|---|
+| SRC-001 | `a_CORTE IBERICO · Contexto y metodología.pdf` | 2026-10-06 | 11 | `49a42d968e351fbd69479905a1875f53cb2090f586c445fd8d95664960fe0c43` | PROJECT-DOCUMENT | REGISTERED | Context, methodology, provenance, skills/participation framing |
+| SRC-002 | `b_CORTE IBERICO META-002 — Cómo se convierte la frontera en un proceso operativo.pdf` | 2026-10-06 | 4 | `b65eb7a04069b7bac9288d8442a22ee2608f8679c87622000cf32e68d0302b84` | PROJECT-DOCUMENT | REGISTERED | Meta evidence boundary and technical research process |
+| SRC-003 | `c_CORTE IBERICO · Perímetro técnico y cadena comercial.pdf` | 2026-10-06 | 8 | `f9f13e748026bac2c2b893cb7e625cb654fc168d6ab14588c80bd81f595b0419` | PROJECT-DOCUMENT | REGISTERED | Technical perimeter, funnel, measurement and execution governance |
+| SRC-004 | `d_CORTE IBERICO · Contexto de las siguientes capturas.pdf` | 2026-10-06 | 5 | `a024ff5b0fde8fc6693211f5fb6fa79281e58c806b6608e71f059751a54d3c1a` | PROJECT-DOCUMENT | REGISTERED | Context for Meta documentation / Andromeda / scaling screenshots |
+| SRC-005 | `e_CORTE IBÉRICO · PROPUESTA COMERCIAL Y MODELOS DE CONTRATACIÓN.pdf` | 2026-10-06 | 14 | `94093b214fdc3567023acbb0b542b02c0a697c35683a8c8f103cada12eff0c9d` | PROJECT-DOCUMENT | REGISTERED | Pre-contractual proposal, phase model and commercial options |
 
 ## Origin
 
