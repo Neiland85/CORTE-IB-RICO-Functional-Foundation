@@ -77,7 +77,7 @@ No hypothesis is promoted to fact without supporting evidence.
 | ID | Evidence basis | Current diagnosis | Confidence | Missing evidence | Next action |
 |---|---|---|---|---|---|
 | D-001 | E-002, E-003 | The project cannot be responsibly scoped from technical observations alone; business and operational inputs are required. | High | Client answers | Obtain/record answers |
-| D-002 | E-003, E-007 | The immediate deliverable should be separated from later architecture/ecommerce/integration work. | High | Confirmed client scope | Establish Phase 0 / Phase 1 boundary |
+| D-002 | E-003, E-007 | The immediate deliverable should be separated from later architecture/ecommerce/integration work. | High | Explicit client scope confirmation / accepted phase boundary | Establish Phase 0 / Phase 1 boundary |
 | D-003 | E-004, E-005 | Platform claims and internal hypotheses need separate evidence classes. | High | Claim-to-source mapping | Build evidence ledger |
 | D-004 | E-005, E-006 | A reproducible evidence chain is required to distinguish platform documentation, observed behaviour and experimental conclusions. | High | Full material inventory | Create evidence records |
 | D-005 | E-009, E-010 | Technical responsibility without corresponding authority or verifiable capability creates governance risk. | High | Final responsibility model | Define RACI and decision rights |
