@@ -18,7 +18,7 @@ underlying evidence has been independently verified.
 
 ---
 
-## Evidence Status Vocabulary
+## Evidence and Validation Status Vocabulary
 
 | Status | Meaning |
 |---|---|
@@ -51,6 +51,8 @@ The five documentary sources are registered in `SOURCE-REGISTER.md` with:
 - receipt date;
 - page count;
 - SHA-256 hash;
+- documentary class;
+- registration status;
 - documentary role.
 
 The underlying PDFs remain outside the Git repository because they may contain
@@ -68,9 +70,9 @@ sensitive or proprietary project material.
 | EI-009 | Git history documenting foundation creation | `PRESENT` | `INTEGRITY_CHECKED` | Repository provenance |
 | EI-010 | GitHub remote publication state | `PRESENT` | `INTEGRITY_CHECKED` | Repository publication/provenance |
 
-`VALIDATED` in this section refers to the existence and integrity of the
-repository artefact itself. It does not validate the business or technical
-claims contained in the project documentation.
+`INTEGRITY_CHECKED` in this section refers to the existence, content integrity
+or provenance of the repository artefact itself. It does not validate the
+business or technical claims contained in the project documentation.
 
 ---
 
