@@ -72,6 +72,15 @@ No hypothesis is promoted to fact without supporting evidence.
 | E-037 | SRC-005 | The proposal requires controlled administrative roles rather than sharing passwords and places project code under client-controlled repository administration. | PROPOSAL / GOVERNANCE PRINCIPLE |
 | E-038 | Outlook / GitHub notification | A fine-grained GitHub personal access token was created for temporary Corte Ibérico repository access on 2026-10-05. Current evidence does not establish that it was revoked. | SECURITY EVENT / OPEN |
 
+
+| E-039 | 2026-10-02 | Outlook message + recovered passive-audit package | Passive pre-audit package was recovered from project correspondence; it contains the underlying passive review and pre-audit questionnaire referenced in E-002. | Recovered / Pending Revalidation | Preserve source package provenance and revalidate public observations where reused |
+| E-040 | 2026-10-02 | Passive pre-audit package | Public ecommerce observations include visible categories, products, prices, stock/delivery information, a product-copy/SKU alignment signal, and differing shipping messages across reviewed pages. | OBSERVED / PUBLIC | Recheck current public state before using as current evidence |
+| E-041 | 2026-10-02 | Passive pre-audit package | Public infrastructure signals include IP 212.1.212.244 associated with AS47583 / Hostinger; a historical source associated the domain with GoDaddy. | OBSERVED / PUBLIC | Do not infer complete current architecture from IP/ASN or historical hosting data |
+| E-042 | 2026-10-02 | Passive pre-audit package | Meta account, campaigns, Pixel/Web Events, CAPI, Catalog/Commerce and audience settings remain UNKNOWN without account-level evidence; Ad Library interpretation was marked INCONCLUSIVE. | OPEN / ACCOUNT EVIDENCE REQUIRED | Obtain authorized account evidence |
+| E-043 | 2026-10-02 | Passive pre-audit package | Public evidence was insufficient to establish TikTok Shop, TikTok Ads or Events API/Pixel as operational. | UNKNOWN / PENDING VALIDATION | Verify account ownership, configuration and events if TikTok is in scope |
+| E-044 | 2026-10-02 | Passive pre-audit package | Passive review explicitly rejects causal conclusions about Meta performance, algorithms/Andromeda, audiences, virality, creative-to-sale attribution and TikTok necessity without appropriate evidence. | DOCUMENTED / METHODOLOGY | Preserve causal boundary |
+| E-045 | 2026-10-02 | Passive pre-audit package | Pre-audit questionnaire covers urgency, objectives, capacity, budget, stack, ownership, history, audit vs execution, access, post-Christmas evolution and economic model. Decision sequence: SCOPE → RESPONSIBILITY → HOURS → RESOURCES → FEE → VARIABLE. | DOCUMENTED / DISCOVERY | Obtain answers; do not infer contractual agreement |
+
 ## Diagnosis Matrix
 
 | ID | Evidence basis | Current diagnosis | Confidence | Missing evidence | Next action |
