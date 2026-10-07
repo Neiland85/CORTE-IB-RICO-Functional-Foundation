@@ -81,6 +81,20 @@ No hypothesis is promoted to fact without supporting evidence.
 | E-044 | 2026-10-02 | Passive pre-audit package | Passive review explicitly rejects causal conclusions about Meta performance, algorithms/Andromeda, audiences, virality, creative-to-sale attribution and TikTok necessity without appropriate evidence. | DOCUMENTED / METHODOLOGY | Preserve causal boundary |
 | E-045 | 2026-10-02 | Passive pre-audit package | Pre-audit questionnaire covers urgency, objectives, capacity, budget, stack, ownership, history, audit vs execution, access, post-Christmas evolution and economic model. Decision sequence: SCOPE → RESPONSIBILITY → HOURS → RESOURCES → FEE → VARIABLE. | DOCUMENTED / DISCOVERY | Obtain answers; do not infer contractual agreement |
 
+
+## Web Audit Evidence Additions
+
+| E-046 | 2026-10-07 | Public web audit: `CORTE-IBERICO-PUBLIC-WEB-MEASUREMENT-AUDIT-v0.1.md` | Public site exposes an ecommerce catalogue with products spanning materially different price levels; current indexed store reports 47 results. | VERIFIED | Validate current live catalogue/admin state |
+| E-047 | 2026-10-07 | Public web audit | Public site exposes a distinct event-services funnel with direct WhatsApp actions. | VERIFIED | Validate lead attribution and revenue reconciliation |
+| E-048 | 2026-10-07 | Public web audit | Public site exposes a distinct academy/professional-training funnel. | VERIFIED | Validate attribution and commercial priority |
+| E-049 | 2026-10-07 | Public web audit | Public privacy documentation declares use of cookies and similar technologies and describes technical/browsing data collection. | VERIFIED | Perform dynamic consent/cookie inspection |
+| E-050 | 2026-10-07 | Public web audit | No independent cookie-policy link was found in the inspected public footer. This is an absence in the inspected surface, not proof that no cookie policy exists elsewhere. | OBSERVED | Check all navigation/legal surfaces and dynamic consent UI |
+| E-051 | 2026-10-07 | Public web audit | Public site shows different shipping/threshold messaging by surface, including MXN 1,825 and MXN 2,999 contexts. | OBSERVED | Test actual checkout rules by destination/shipping mode |
+| E-052 | 2026-10-07 | Public web audit | Public measurement references include Google Tag Manager and Meta/Facebook tracking in the inspected implementation; exact event configuration remains unverified. | VERIFIED / OPEN | Inspect GTM, Events Manager and browser/server events |
+| E-053 | 2026-10-07 | Public web audit | Public evidence does not establish that Pixel, CAPI, ecommerce events, deduplication, attribution or purchase values are correct. | OPEN | Authorized measurement audit |
+| E-054 | 2026-10-07 | Public web audit | WhatsApp is a material conversion bridge for event and other human-assisted sales, creating a potential gap between Meta/web telemetry and economic truth. | VERIFIED / OPEN | Reconcile WhatsApp-originated leads and revenue |
+
+
 ## Diagnosis Matrix
 
 | ID | Evidence basis | Current diagnosis | Confidence | Missing evidence | Next action |
@@ -93,6 +107,10 @@ No hypothesis is promoted to fact without supporting evidence.
 | D-006 | E-014 | Campaign performance cannot be treated independently from measurement, catalogue, channels, automation and process dependencies. | Medium | Actual architecture/account state | Perform dependency mapping |
 | D-007 | E-015 | Credential handling represents an immediate security-control issue independent of the commercial/technical diagnosis. | High | Revocation confirmation | Verify credential revocation; do not store credential |
 | D-008 | E-016, E-017 | The project currently has multiple evidence/material channels that need to be consolidated into a controlled register. | High | Complete source inventory | Build source register |
+| D-009 | E-046, E-047, E-048 | Corte Ibérico has multiple materially different conversion paths: ecommerce, events and academy/professional services. | High | Account and business data | Model conversion paths separately |
+| D-010 | E-052, E-053 | Public tracking presence does not establish correct measurement; event configuration, CAPI, deduplication and purchase-value integrity remain open. | High | GTM + Events Manager + ecommerce data | Execute measurement audit |
+| D-011 | E-054 | WhatsApp-originated business may sit outside standard ecommerce conversion reporting. | High | Lead/source/revenue reconciliation | Establish WhatsApp attribution path |
+| D-012 | E-051 | Shipping/offer messaging requires checkout validation before being classified as a conversion problem. | Medium | Live checkout tests | Validate by destination and shipping mode |
 
 ---
 
@@ -112,6 +130,11 @@ No hypothesis is promoted to fact without supporting evidence.
 | V-010 | Which technical decisions can be made by the technical role? | Joint | OPEN | Responsibility assignment |
 | V-011 | Which existing claims about Meta/Andromeda/audiences/virality have supporting evidence? | Joint | OPEN | Technical conclusions |
 | V-012 | Was the previously exposed repository credential revoked? | Neil | OPEN | Security closure |
+| V-013 | What events fire across product, cart, checkout and purchase? | Joint | OPEN | Measurement diagnosis |
+| V-014 | Is CAPI active and correctly deduplicated against browser events? | Joint | OPEN | Measurement diagnosis |
+| V-015 | Are purchase value, currency and product identifiers correct? | Joint | OPEN | Measurement diagnosis |
+| V-016 | How are WhatsApp-originated leads/sales attributed and reconciled? | Corte Ibérico | OPEN | Measurement diagnosis |
+| V-017 | Are shipping thresholds and offers consistent at checkout by destination/method? | Corte Ibérico | OPEN | Conversion diagnosis |
 
 ---
 
@@ -245,5 +268,6 @@ without supporting evidence.
 4. Obtain the missing business/operational answers.
 5. Inventory Meta assets, accounts, permissions and measurement.
 6. Build the Phase 1 audit dataset.
-7. Convert verified findings into the prioritized diagnosis.
-8. Only then produce the commercial proposal and execution plan.
+7. Execute the public-web-derived measurement validation queue (V-013 to V-017).
+8. Convert verified findings into the prioritized diagnosis.
+9. Only then produce the commercial proposal and execution plan.
