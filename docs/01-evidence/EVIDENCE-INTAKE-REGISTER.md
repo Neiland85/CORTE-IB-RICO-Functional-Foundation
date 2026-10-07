@@ -101,6 +101,16 @@ conclusions can be treated as established.
 
 ---
 
+## 3A. Recovered Passive Pre-Audit Material
+
+| ID | Required Evidence | Status | Required For |
+|---|---|---|---|
+| EI-028 | Recovered passive pre-audit package and underlying working documents from Outlook project correspondence | REGISTERED | Recover pre-audit observations and preserve evidence provenance |
+
+The recovered package contains the passive review, public observations, explicit account-level evidence gaps and the pre-audit discovery questionnaire. It does not by itself establish current account state, causal mechanisms or contractual acceptance.
+
+---
+
 ## 4. Security Evidence
 
 | ID | Security Event | Status | Required Evidence |
