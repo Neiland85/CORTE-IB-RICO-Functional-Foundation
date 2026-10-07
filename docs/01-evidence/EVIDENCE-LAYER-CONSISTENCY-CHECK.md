@@ -34,3 +34,24 @@ No unsupported Meta mechanism, account configuration state, causal attribution o
 ## Scope Boundary
 
 This checkpoint is a repository/documentation consistency assessment. It is not an audit of the Corte Ibérico Meta account.
+
+
+## Evidence Recovery Checkpoint
+
+Recovery commit: ca8b65c8385b9c204b3c571c349f7dfde97aa74f  
+Master mapping commit: c850d1643127822c9bd915429b5138a478f94ea5  
+Intake mapping commit: 5fe92779602fcd6a2fb7e6431d67db9b49fcd1ac
+
+| Check | Result | Notes |
+|---|---|---|
+| Passive pre-audit package recovered | PASS | Outlook attachment materialized and contents inspected. |
+| Passive findings mapped to evidence IDs | PASS | E-039..E-045 recorded in the master matrix. |
+| Recovered package registered in intake | PASS | EI-028 added; package remains registered rather than promoted to verified account evidence. |
+| Account-level evidence gate | PASS | Meta/TikTok/account-state gaps remain open. |
+| Causal attribution gate | PASS | Passive observations do not establish causality. |
+| Contractual scope gate | PASS | Questionnaire is treated as discovery material, not acceptance. |
+| Phase 1 readiness | NOT READY | Authorized account/business evidence is still missing. |
+
+### Recovery decision
+
+The underlying passive pre-audit material has now been recovered and incorporated into the repository evidence layer. The next work should move from **recovery** to **authorized evidence intake**, not to unsupported diagnosis.
