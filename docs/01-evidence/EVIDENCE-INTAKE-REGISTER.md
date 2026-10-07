@@ -22,12 +22,13 @@ underlying evidence has been independently verified.
 
 | Status | Meaning |
 |---|---|
-| `PRESENT` | Evidence is currently available and identifiable. |
+| `PRESENT` | Evidence is currently available and identifiable in the repository or current project context. |
 | `REGISTERED` | Evidence is identified by reference but the underlying material is not stored in this repository. |
 | `MISSING` | Evidence is required or expected but has not yet been obtained. |
 | `PENDING_VALIDATION` | Evidence is available but has not yet been independently validated for the relevant claim. |
 | `VALIDATED` | Evidence has been checked and is sufficient for the stated claim. |
 | `NOT_APPLICABLE` | Evidence is not required for the stated scope. |
+| `INTEGRITY_CHECKED` | Repository artefact existence, content integrity or provenance has been checked; this does not validate the underlying business or technical claim. |
 
 ---
 
@@ -61,11 +62,11 @@ sensitive or proprietary project material.
 
 | ID | Evidence | Status | Validation State | Scope |
 |---|---|---|---|---|
-| EI-006 | Master Evidence → Diagnosis → Decision Matrix | `PRESENT` | `VALIDATED` | Evidence governance and project traceability |
-| EI-007 | Source Register | `PRESENT` | `VALIDATED` | Documentary source registration |
-| EI-008 | Claim Validation Register | `PRESENT` | `VALIDATED` | Claim status and required validation |
-| EI-009 | Git history documenting foundation creation | `PRESENT` | `VALIDATED` | Repository provenance |
-| EI-010 | GitHub remote publication state | `PRESENT` | `VALIDATED` | Repository publication/provenance |
+| EI-006 | Master Evidence → Diagnosis → Decision Matrix | `PRESENT` | `INTEGRITY_CHECKED` | Evidence governance and project traceability |
+| EI-007 | Source Register | `PRESENT` | `INTEGRITY_CHECKED` | Documentary source registration |
+| EI-008 | Claim Validation Register | `PRESENT` | `INTEGRITY_CHECKED` | Claim status and required validation |
+| EI-009 | Git history documenting foundation creation | `PRESENT` | `INTEGRITY_CHECKED` | Repository provenance |
+| EI-010 | GitHub remote publication state | `PRESENT` | `INTEGRITY_CHECKED` | Repository publication/provenance |
 
 `VALIDATED` in this section refers to the existence and integrity of the
 repository artefact itself. It does not validate the business or technical
@@ -102,7 +103,7 @@ conclusions can be treated as established.
 
 | ID | Security Event | Status | Required Evidence |
 |---|---|---|---|
-| EI-026 | Temporary GitHub credential created for Corte Ibérico repository access | `PRESENT` | Existing project/email evidence |
+| EI-026 | Temporary GitHub credential created for Corte Ibérico repository access | `REGISTERED` | Existing project/email evidence outside this repository |
 | EI-027 | Revocation of temporary GitHub credential | `MISSING` | GitHub security/audit evidence or equivalent confirmation |
 
 ### Security Rule
